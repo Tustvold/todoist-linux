@@ -1,30 +1,47 @@
 {
-  "name": "Todoist",
-  "version": "0.0.1",
-  "description": "A Linux desktop client for todoist",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
-  "keywords": [
-    "to-do",
-    "task",
-    "todoist",
-    "linux"
-  ],
-  "single-instance": true,
-  "window": {
-    "title": "Todoist",
-    "toolbar": false,
-    "position": "center",
-    "width": 800,
-    "height": 600,
-    "icon": "assets/icon.png"
-  },
-  "webkit": {
-    "page-cache": true
-  },
-  "author": "kamhix <kimly02@gmail.com",
-  "license": "MIT"
+    "app_name": "todoist",
+    "author": "kamhix <kimly02@gmail.com",
+    "description": "A Linux desktop client for todoist",
+    "keywords": [
+        "to",
+        "do",
+        "task",
+        "todoist",
+        "linux"
+    ],
+    "license": "MIT",
+    "main": "index.html",
+    "name": "Todoist",
+    "repository": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "single-instance": true,
+    "version": "0.0.1",
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "output",
+        "force_download": false,
+        "linux-x64": true,
+        "nw_compression_level": 0,
+        "nw_version": "0.20.0-beta1",
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": ""
+    },
+    "webkit": {
+        "page-cache": true
+    },
+    "window": {
+        "height": 600,
+        "icon": "assets/icon.png",
+        "id": "todoist-linux",
+        "position": "center",
+        "title": "Todoist",
+        "toolbar": false,
+        "width": 800
+    }
 }
